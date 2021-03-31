@@ -1,2 +1,2 @@
 # stonks-miniprojects
-a dump of small projects which used my PSE Edge scraper
+a dump of small projects using data obtained from PSE Edge
