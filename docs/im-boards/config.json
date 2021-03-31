@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "https://github.com/kgreyy",
+    "text": "kgreyy"
+  },
+  "text": {
+    "more": "Nodes were colored by modularity class and scaled according to the number of companies they control. The motivation behind this graph is to determine key players in the Philippine business and their relationships with one another.<br><br>Data was obtained from <a href=\"https://edge.pse.com.ph/\">PSE Edge</a> under the premise of personal, non-commercial use.",
+    "intro": "Shown are board members of two or more companies that belong to the Philippine Stock Exchange. Each edge points to the companies under their leadership.<br><br>Last updated: 07/2020",
+    "title": "PSE Board/Director Overlap"
+  },
+  "legend": {
+    "edgeLabel": "Board/Director Membership",
+    "colorLabel": "Modularity Class",
+    "nodeLabel": "Board Members/Directors"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "In-Degree"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 27
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
