@@ -13,9 +13,9 @@ This project aimed to determine whether the said oligarchy exists based on board
 1. Data was gathered by scraping management data from the PSE using my PSE API.
 2. A graph representation was generated using Gephi with each Board Member/Director pointing to respective companies.
 3. Each node was scaled according to out-degree and colored according to modularity class.
-4. To better visualize the graph, Yifan Hu Proportional and Noverlap were performed.
-5. The resulting graph can be seen below or [accessed here]().
+4. To better visualize the graph, Yifan Hu Proportional and Noverlap were performed. A website was generated using the SigmaExport plugin to host it online.
+5. The resulting graph can be seen below or [accessed here](https://kgreyy.github.io/stonks-miniprojects/im-boards/).
 
 <p align="center">
-<img src="https://github.com/kgreyy/stonks-miniprojects/blob/master/PSE Board Director Overlap.JPG?raw=true" alt="Graph of PSE Board Director Overlap"/>
+<img src="https://github.com/kgreyy/stonks-miniprojects/blob/main/im-boards/PSE%20Board%20Director%20Overlap.JPG?raw=true" alt="Graph of PSE Board Director Overlap"/>
 </p>
